@@ -6,7 +6,8 @@ def join_ingredients(src)
   #
   # "I love (inner array element 0) and (inner array element 1) on my pizza""
   # As such, there should be a new String for each inner array, or pair
-  
+  src.each { |src| puts "#{key} price is #{value}" }
+
   #joined_ingredients[`I love $[src[O]] and $[src[1]] on my pizza` ]
 end
 
