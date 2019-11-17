@@ -8,7 +8,7 @@ def join_ingredients(src)
   # As such, there should be a new String for each inner array, or pair
   joined_ingredients = Array.new
   src.each { |iteration|
-  joined_ingredients.push = `I love ` + src[iteration][O] + ` and ` + src[iteration][1] + ` on my pizza` }
+  joined_ingredients.push = "I love " + src[iteration][O] + " and " + src[iteration][1] + " on my pizza" }
 
   joined_ingredients
   #joined_ingredients[`I love $[src[O]] and $[src[1]] on my pizza` ]
